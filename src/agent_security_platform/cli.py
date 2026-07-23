@@ -3,7 +3,7 @@ import argparse
 import json
 import sys
 from pathlib import Path
-from .scaner import SecurityScanner
+from .scanner import SecurityScanner
 from .rules import BUILTIN_RULES
 
 def build_parser():
